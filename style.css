@@ -99,6 +99,12 @@ p:nth-child(2) {
   color: rgba(0, 0, 0, 0.102);
 }
 
+input:focus {
+  outline: none !important;
+  border-color: #1ebf99;
+  box-shadow: 0px 0px 0px 2px #1ebf99;
+}
+
 .btn {
   width: 100%;
   color: #fff;
